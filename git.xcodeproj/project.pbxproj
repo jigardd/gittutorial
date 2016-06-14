@@ -16,6 +16,7 @@
 		C7EFEAC51D0FC7170093251F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7EFEAC31D0FC7170093251F /* LaunchScreen.storyboard */; };
 		C7EFEAD01D0FC7170093251F /* gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFEACF1D0FC7170093251F /* gitTests.m */; };
 		C7EFEADB1D0FC7170093251F /* gitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFEADA1D0FC7170093251F /* gitUITests.m */; };
+		C7EFEAEA1D0FD6E80093251F /* map.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFEAE91D0FD6E80093251F /* map.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C7EFEAD61D0FC7170093251F /* gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7EFEADA1D0FC7170093251F /* gitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitUITests.m; sourceTree = "<group>"; };
 		C7EFEADC1D0FC7170093251F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EFEAE81D0FD6E80093251F /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		C7EFEAE91D0FD6E80093251F /* map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = map.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				C7EFEAB81D0FC7170093251F /* ViewController.h */,
 				C7EFEAB91D0FC7170093251F /* ViewController.m */,
 				C7EFEABB1D0FC7170093251F /* Main.storyboard */,
+				C7EFEAE81D0FD6E80093251F /* map.h */,
+				C7EFEAE91D0FD6E80093251F /* map.m */,
 				C7EFEAC11D0FC7170093251F /* Assets.xcassets */,
 				C7EFEAC31D0FC7170093251F /* LaunchScreen.storyboard */,
 				C7EFEAC61D0FC7170093251F /* Info.plist */,
@@ -275,6 +280,7 @@
 			files = (
 				C7EFEAC01D0FC7170093251F /* git.xcdatamodeld in Sources */,
 				C7EFEABA1D0FC7170093251F /* ViewController.m in Sources */,
+				C7EFEAEA1D0FD6E80093251F /* map.m in Sources */,
 				C7EFEAB71D0FC7170093251F /* AppDelegate.m in Sources */,
 				C7EFEAB41D0FC7170093251F /* main.m in Sources */,
 			);
